@@ -1,0 +1,46 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  width: 40vw;
+  min-width: 230px;
+  font-family: "Quicksand", sans-serif;
+  height: 3vh;
+}
+
+.Form form {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Form input {
+  width: 60%;
+  height: 80%;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: clamp(10px, 1.5vw, 14px);
+}
+
+.Form button {
+  font-family: "Quicksand";
+  font-weight: bold;
+  background: rgb(233, 190, 89);
+  background: linear-gradient(107deg, rgb(245, 186, 47) 0%, rgba(255, 218, 2, 1) 100%);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 100%;
+  width: 20%;
+  min-width: 70px;
+  letter-spacing: 0.1em;
+  font-size: clamp(11px, 1.5vw, 15px);
+  transition: all 0.1s ease;
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.Form button:active {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}

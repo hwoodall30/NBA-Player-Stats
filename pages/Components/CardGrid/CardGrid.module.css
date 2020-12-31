@@ -1,0 +1,9 @@
+.CardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 95%;
+}
